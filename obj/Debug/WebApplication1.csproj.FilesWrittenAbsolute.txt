@@ -1,0 +1,7 @@
+/app/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/app/obj/Debug/WebApplication1.dll
+/app/obj/Debug/WebApplication1.pdb
+/app/bin/WebApplication1.dll.mdb
+/app/bin/WebApplication1.pdb
+/app/bin/WebApplication1.dll
+/app/obj/Debug/WebApplication1.dll.mdb

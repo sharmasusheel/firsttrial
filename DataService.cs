@@ -7,14 +7,19 @@ using System.Data.SqlClient;
 using System.Configuration;
 namespace WebApplication1
 {
-    
+
 
     public class DataService
     {
-        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString);
+        SqlConnection con;
         SqlDataAdapter da;
         DataTable dt;
         SqlCommand cmd;
+
+        public DataService()
+        {
+            con = new SqlConnection(new ConString().stringDbCon);
+        }
 
         public DataTable GetUserLISt()
         {
