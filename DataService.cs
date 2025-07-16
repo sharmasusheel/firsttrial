@@ -11,15 +11,10 @@ namespace WebApplication1
 
     public class DataService
     {
-        SqlConnection con;
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString);
         SqlDataAdapter da;
         DataTable dt;
         SqlCommand cmd;
-
-        public DataService()
-        {
-            con = new SqlConnection(new ConString().stringDbCon);
-        }
 
         public DataTable GetUserLISt()
         {

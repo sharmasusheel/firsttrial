@@ -1,4 +1,4 @@
-@Sinhasth2028.Api_HostAddress = http://localhost:5164
+@Sinhasth2028.Api_HostAddress = http://localhost:5201
 
 GET {{Sinhasth2028.Api_HostAddress}}/weatherforecast/
 Accept: application/json

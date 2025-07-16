@@ -9,12 +9,7 @@ namespace WebApplication1
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        PropertyService PS;
-
-        public WebForm1()
-        {
-            PS = new PropertyService();
-        }
+        PropertyService PS = new PropertyService();
 
         protected void Page_Load(object sender, EventArgs e)
         {
